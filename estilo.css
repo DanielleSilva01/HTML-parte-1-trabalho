@@ -10,9 +10,6 @@ body{
 html{
     min-height: 100%;
     position: relative 
- }
-#voltar{
-    text-align: right;
 }
 #Plantas{
     width: 650px;
@@ -26,30 +23,26 @@ h1{
     text-align: center;
     color:green;
 }
-#visite{
-    background-color: greenyellow;
-    margin-right: 30px;
-    border-radius: 40px;
-    border-width: 1px;
-    border-color:yellowgreen;
-    border-style: solid;
-    padding: 10px;
-    color: black;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
 a:link {
     color: blue;
 }
-    a:visited {
+a:visited {
         color: black;
         text-decoration: none;
     }
-    a:hover {
+a:hover {
         color:red;
         text-decoration: none;
     }
-    p{
+p{
         text-align: justify;
         margin-top: 0px;
+    }
+nav li{
+        display:inline-block;
+        padding-left: 20px;
+        font-size: 24px;    
+    }
+nav ul{
+        background-color: greenyellow;
     }
