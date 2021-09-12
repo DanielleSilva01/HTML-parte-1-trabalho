@@ -1,0 +1,55 @@
+body{
+    background-image: url("img/plano\ fundo.jpg");
+    font-family: Arial, sans-serif;
+    margin-right: 12%;
+    margin-left: 12%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    min-height: 100%;
+    position: relative 
+ }
+#voltar{
+    text-align: right;
+}
+#Plantas{
+    width: 650px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+h1{
+    text-align: center;
+    color:green;
+}
+#visite{
+    background-color: greenyellow;
+    margin-right: 30px;
+    border-radius: 40px;
+    border-width: 1px;
+    border-color:yellowgreen;
+    border-style: solid;
+    padding: 10px;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+a:link {
+    color: blue;
+}
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        color:red;
+        text-decoration: none;
+    }
+    p{
+        text-align: justify;
+        margin-top: 0px;
+    }
