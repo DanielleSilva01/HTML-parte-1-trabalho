@@ -10,7 +10,7 @@ body{
 html{
     min-height: 100%;
     position: relative 
-    }
+}
 #Plantas{
     width: 650px;
     height: 350px;
@@ -18,36 +18,36 @@ html{
     margin-left: auto;
     margin-right: auto;
     margin-top: 1px;
-    }
+}
 h1{
     text-align: center;
     color:green;
-    }
+}
 a:link{
     color: blue;
     }
 a:visited{
-    color: black;
+    color: rgb(12, 127, 235);
     text-decoration: none;
-    }
+}
 a:hover{
     color:brown;
     text-decoration: none;
-    }
+}
 p{
     text-align: justify;
     margin-top: 0px;
-    }
+}
 nav li{
     display:inline-block;
     padding-left: 20px;
     font-size: 24px;
-    }
+}
 nav ul{
     background-color: greenyellow;
-    }
+}
 caption{
-    background-color: rgb(240, 184, 184);
+    background-color: rgb(240, 130, 221);
     font-size: 100%;
     font-family: Arial, sans-serif;
     }
@@ -62,4 +62,13 @@ thead{
     }
 tbody{
     background-color:#E9967A;
-    }
+}
+#tabelafoto{
+    text-align: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
