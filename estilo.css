@@ -1,12 +1,12 @@
 body{
-    background-image: url("img/plano\ fundo.jpg");
     font-family: Arial, sans-serif;
     margin-right: 12%;
     margin-left: 12%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+    background-color: white;
+}
 html{
     min-height: 100%;
     position: relative 
@@ -19,9 +19,10 @@ html{
     margin-right: auto;
     margin-top: 1px;
 }
-h1{
+h1, h2{
+    color:rgb(51, 85, 51);
+    font-size: 34px "Arial", sans-serif;
     text-align: center;
-    color:green;
 }
 a:link{
     color: blue;
@@ -34,9 +35,15 @@ a:hover{
     color:brown;
     text-decoration: none;
 }
+li a:hover{
+    background-color: white;
+}
 p{
     text-align: justify;
-    margin-top: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
 }
 nav li{
     display:inline-block;
@@ -44,31 +51,69 @@ nav li{
     font-size: 24px;
 }
 nav ul{
-    background-color: greenyellow;
+    background-color: greenyellow;   
+}
+nav{
+    position: sticky;
+    top: 0%;
 }
 caption{
-    background-color: rgb(240, 130, 221);
-    font-size: 100%;
-    font-family: Arial, sans-serif;
-    }
-td, th{
-    padding:3px 10px 3px 10px;        
-    }
-thead{
-    background:greenyellow;
-    border-width: 1px;
-    border-color:black;
-    border-style: solid;
-    }
-tbody{
-    background-color:#E9967A;
+    background-color: white;
+    font-size: 120%;
 }
-#tabelafoto{
+td, th{
+    border: 1px solid black;       
+    padding: 5px 15px;\
+}
+thead{
+    background:rgb(205, 235, 161);
+}
+tbody{
+    background-color:#fae6df;
     text-align: center;
 }
+table{
+    font-family: 'Montagu Slab', serif;
+    border-collapse: collapse;
+    border-color: black;
+}
+#tabelafoto{
+    width: 60%;
+    padding-left: 10px;
+    float: right;
+    margin-right: 15px;
+}
 .img{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
+    float: right;
+    height: 350px;
+    margin: 20px;
+}
+.créditos{
+    text-align: center;
+    color: red;
+}
+li{
+    text-align: center;
+    font-size: 20px;
+}
+.primeira-letra:first-of-type::first-letter{
+    float: left;
+    font-size: 3em;
+    line-height: 0.6em;
+    padding-right: 0.0em;
+ }
+ #gif{
+     float: left;
+ }
+ #titulo-geral{
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 50px;
+    border: 10px dotted rgb(76, 219, 83);
+}
+td img{
+    width: 180px;
+    height: 125px;
+    padding: 0px;
 }
