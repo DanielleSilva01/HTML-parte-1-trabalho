@@ -123,4 +123,6 @@ td img{
 li{
     text-align: center;
     font-size: 20px;
+    list-style-type: none;
+}
 }
